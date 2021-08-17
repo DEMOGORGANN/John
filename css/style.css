@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:regular,500,700,800,900&display=swap");
+/*"Heebo", sans-serif; regular*/
+body {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+body header .Burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: none;
+  margin: 15px 15px 0 0;
+}
+
+body header .Burger .br {
+  background-color: black;
+  height: 1px;
+  width: 20px;
+  margin: 0 0 4px 0;
+}
+
+body header .Navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header .Navigation .nav {
+  margin: 27px 33px 0 0;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Heebo" sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+body header .Navigation :last-child {
+  margin-right: 50px;
+}
+
+body section {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-top: 179px;
+}
+
+body section .firstBlock .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body section .firstBlock .wrapper .ImJonh .Title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #21243d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 470px;
+  line-height: 60px;
+  margin-bottom: 41px;
+}
+
+body section .firstBlock .wrapper .ImJonh .declaration {
+  font-size: 16px;
+  line-height: 23.5px;
+  font-weight: 400;
+  width: 450px;
+  color: #21243d;
+}
+
+body section .firstBlock .wrapper .circle-image img {
+  width: 245px;
+  height: 245px;
+}
+
+body section .firstBlock button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #ff6464;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-top: 11px;
+}
+
+body section .PostsAndView a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  body section .wrapper .ImJonh {
+    margin-left: 10px;
+  }
+  body section .wrapper img {
+    margin-right: 10px;
+  }
+  body button {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    /* стили для средних планшетов - начало */
+  }
+  body header .Navigation {
+    display: none;
+  }
+  body header .Burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body section {
+    max-width: 479px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  body section .firstBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section .firstBlock .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section .firstBlock .wrapper .circle-image img {
+    width: 175px;
+    height: 180px;
+    margin-bottom: 34px;
+  }
+  body section .firstBlock .wrapper .ImJonh {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 312px;
+  }
+  body section .firstBlock .wrapper .ImJonh .Title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+  }
+  body section .firstBlock .wrapper .ImJonh .declaration {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    /* стили для телефонов - начало */
+  }
+}
+/*# sourceMappingURL=style.css.map */
