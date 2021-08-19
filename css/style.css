@@ -8,6 +8,12 @@ body {
   padding: 0;
 }
 
+body hr {
+  color: #e0e0e0;
+  margin: 0;
+  margin-top: 15px;
+}
+
 body header {
   max-width: 1032px;
   margin: 0 auto;
@@ -57,13 +63,13 @@ body header .Navigation :last-child {
   margin-right: 50px;
 }
 
-body section {
+body main {
   max-width: 856px;
   margin: 0 auto;
   margin-top: 179px;
 }
 
-body section .firstBlock .wrapper {
+body main .firstBlock .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +84,7 @@ body section .firstBlock .wrapper {
       flex-wrap: wrap;
 }
 
-body section .firstBlock .wrapper .ImJonh .Title {
+body main .firstBlock .wrapper .ImJonh .Title {
   font-size: 44px;
   font-weight: 700;
   color: #21243d;
@@ -92,7 +98,7 @@ body section .firstBlock .wrapper .ImJonh .Title {
   margin-bottom: 41px;
 }
 
-body section .firstBlock .wrapper .ImJonh .declaration {
+body main .firstBlock .wrapper .ImJonh .declaration {
   font-size: 16px;
   line-height: 23.5px;
   font-weight: 400;
@@ -100,12 +106,12 @@ body section .firstBlock .wrapper .ImJonh .declaration {
   color: #21243d;
 }
 
-body section .firstBlock .wrapper .circle-image img {
+body main .firstBlock .wrapper .circle-image img {
   width: 245px;
   height: 245px;
 }
 
-body section .firstBlock button {
+body main .firstBlock button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -121,7 +127,7 @@ body section .firstBlock button {
   cursor: pointer;
 }
 
-body section .Posts .PostsAndView {
+body main .Posts .PostsAndView {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +140,7 @@ body section .Posts .PostsAndView {
   margin: 99px 10px 0;
 }
 
-body section .Posts .PostsAndView .Post {
+body main .Posts .PostsAndView .Post {
   text-decoration: none;
   font-size: 22px;
   line-height: 60px;
@@ -142,7 +148,7 @@ body section .Posts .PostsAndView .Post {
   color: #21243d;
 }
 
-body section .Posts .PostsAndView .ViewAll {
+body main .Posts .PostsAndView .ViewAll {
   font-style: 16px;
   line-height: 23px;
   font-weight: 500;
@@ -150,7 +156,7 @@ body section .Posts .PostsAndView .ViewAll {
   color: #00a8cc;
 }
 
-body section .InfoForLayout {
+body main .InfoForLayout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,21 +167,23 @@ body section .InfoForLayout {
           justify-content: space-between;
 }
 
-body section .InfoForLayout .itemPost {
+body main .InfoForLayout .itemPost {
   padding: 6px 46px 35px 23px;
   background-color: #edf7fa;
   width: 310px;
   margin-top: 20px;
 }
 
-body section .InfoForLayout .itemPost .Titless {
+body main .InfoForLayout .itemPost .Titless {
+  text-decoration: none;
+  color: #21243d;
   width: 374px;
   font-size: 26px;
   line-height: 39px;
   font-weight: 700;
 }
 
-body section .InfoForLayout .itemPost .Date {
+body main .InfoForLayout .itemPost .Date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,18 +193,111 @@ body section .InfoForLayout .itemPost .Date {
   margin-top: 37px;
 }
 
-body section .InfoForLayout .itemPost .Decl {
+body main .InfoForLayout .itemPost .Decl {
   font-size: 16px;
   line-height: 23px;
   font-weight: 400;
   margin-top: 26px;
 }
 
+body main .LastWorks {
+  margin-top: 47px;
+}
+
+body main .LastWorks > h4 {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  font-weight: 400;
+  margin: 0;
+}
+
+body main .LastWorks .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body main .LastWorks .work > img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+body main .LastWorks .work .infoForWork > h2 {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #21243d;
+  margin: 0;
+}
+
+body main .LastWorks .work .infoForWork .dateWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 190px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+}
+
+body main .LastWorks .work .infoForWork .dateWork strong {
+  font-size: 18px;
+  font-weight: 900;
+  border: solid #142850;
+  border-radius: 16px;
+  background: #142850;
+  color: white;
+  width: 62px;
+  text-align: center;
+}
+
+body main .LastWorks .work .infoForWork .dateWork .TypeOfWork {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .LastWorks .work .infoForWork > h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #21243d;
+  margin-top: 20px;
+  width: 500px;
+}
+
+body footer > h3 {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 100px 0 54px;
+}
+
 @media screen and (max-width: 991px) {
-  body section .wrapper .ImJonh {
+  body main .wrapper .ImJonh {
     margin-left: 10px;
   }
-  body section .wrapper img {
+  body main .wrapper img {
     margin-right: 10px;
   }
   body button {
@@ -216,12 +317,12 @@ body section .InfoForLayout .itemPost .Decl {
     display: -ms-flexbox;
     display: flex;
   }
-  body section {
+  body main {
     max-width: 479px;
     margin: 0 auto;
     margin-top: 45px;
   }
-  body section .firstBlock {
+  body main .firstBlock {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -231,7 +332,7 @@ body section .InfoForLayout .itemPost .Decl {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  body section .firstBlock .wrapper {
+  body main .firstBlock .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -241,12 +342,12 @@ body section .InfoForLayout .itemPost .Decl {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  body section .firstBlock .wrapper .circle-image img {
+  body main .firstBlock .wrapper .circle-image img {
     width: 175px;
     height: 180px;
     margin-bottom: 34px;
   }
-  body section .firstBlock .wrapper .ImJonh {
+  body main .firstBlock .wrapper .ImJonh {
     margin-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -260,50 +361,68 @@ body section .InfoForLayout .itemPost .Decl {
         align-content: center;
     width: 312px;
   }
-  body section .firstBlock .wrapper .ImJonh .Title {
+  body main .firstBlock .wrapper .ImJonh .Title {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     text-align: center;
   }
-  body section .firstBlock .wrapper .ImJonh .declaration {
+  body main .firstBlock .wrapper .ImJonh .declaration {
     font-size: 12px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
   }
-  body section .Posts .PostsAndView {
+  body main .Posts .PostsAndView {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 83px;
   }
-  body section .Posts .PostsAndView .ViewAll {
+  body main .Posts .PostsAndView .ViewAll {
     display: none;
   }
-  body section .Posts .InfoForLayout {
+  body main .Posts .InfoForLayout {
+    margin-top: 40px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  body section .Posts .InfoForLayout .itemPost {
+  body main .Posts .InfoForLayout .itemPost {
     padding: 5px 5px 5px 5px;
-    margin: 0px 10px 15px 10px;
+    margin: 0px 10px 25px 10px;
   }
-  body section .Posts .InfoForLayout .itemPost .Titless {
+  body main .Posts .InfoForLayout .itemPost .Titless {
     font-size: 22px;
     line-height: 33px;
   }
-  body section .Posts .InfoForLayout .itemPost .Date {
+  body main .Posts .InfoForLayout .itemPost .Date {
     font-size: 16px;
     line-height: 23px;
   }
-  body section .Posts .InfoForLayout .itemPost .Decl {
+  body main .Posts .InfoForLayout .itemPost .Decl {
     font-size: 16px;
     line-height: 23px;
   }
-  body section .Posts .InfoForLayout :last-child {
+  body main .Posts .InfoForLayout :last-child {
     margin-bottom: 0;
+  }
+  body main .LastWorks > h4 {
+    text-align: center;
+  }
+  body main .LastWorks .work {
+    width: 96%;
+  }
+  body main .LastWorks .work > img {
+    width: 100%;
+    height: 100%;
+  }
+  body main .LastWorks .work .infoForWork > h3 {
+    width: inherit;
+  }
+  body footer > h3 {
+    font-size: 12px;
+    margin: 50px 0 25px;
   }
 }
 
